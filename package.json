@@ -1,0 +1,35 @@
+{
+  "name": "e-commerce-platform",
+  "version": "1.0.0",
+  "description": "e-commerce platform",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js",
+    "seeds": "node seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goodwinamundson/e-commerce-platform.git"
+  },
+  "keywords": [
+    "e-commerce",
+    "platform"
+  ],
+  "author": "Goodwin Amundson",
+  "license":"ISC",
+  "bugs": {
+    "url": "https://github.com/goodwinamundson/e-commerce-platform/issues"
+  },
+  "homepage": "https://github.com/goodwinamundson/e-commerce-platform#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.17.0"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
